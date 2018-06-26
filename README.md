@@ -30,5 +30,7 @@ t.go_to(getApplicationContext(),login_activity.class);
    
       
  show hide;
+ 
    t.hide(v.getContext(),R.id.LinearLayout1 );
+   
    t.show(v.getContext(),R.id.LinearLayout2 );

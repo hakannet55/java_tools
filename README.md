@@ -35,20 +35,14 @@ t.go_to(getApplicationContext(),login_activity.class);
    
    t.show(v.getContext(),R.id.LinearLayout2 );
    
-   #easy table row functions
-                   tr=new TableRow(ct);
+# easy table row functions
                    
+                tr=new TableRow(ct); 
                 tr.setGravity(Gravity.CENTER_VERTICAL);
-                
                 prm=new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,LinearLayout.LayoutParams.MATCH_PARENT);
-                
                 tr.setLayoutParams(prm);
-                
                 t.ad_celltext(tr,ct,s1,10,align,border,txcolor);
-                
                 t.ad_celltext(tr,ct,snf,10,align,border,txcolor);
-                
                 t.ad_celltext(tr,ct,s2,10,align,border,txcolor);
-                
                 table.addView(tr);
                 
